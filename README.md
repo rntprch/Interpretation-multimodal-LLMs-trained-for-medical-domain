@@ -1,5 +1,6 @@
 # Interpretation of Multimodal LLMs Trained for Medical Domain
 This repository consists of several jupyter notebooks with different LLM interpretation techniques
+
 Used model: https://github.com/microsoft/LLaVA-Med
 ## Problem
 Multimodal AI models like LLaVA-Med, which integrate medical text and images, are difficult to interpret, posing risks to transparency and trust in clinical decision-making. Without clear understanding of how these models process and combine different inputs, their application in healthcare is limited.
@@ -15,7 +16,7 @@ docker build -t llava_model .
 cd ../
 docker run -it --gpus='"device=1"' -p 10000:10000 -p 40000:40000 -p 7860:7860 -p 510:510 -v $(pwd):/workspace --name llava_container llava_model
 ```
-After creating docker environment connect to running container with VS code or any interpreter in interactive mode.
+After creating docker environment, connect to running container with VS code or any interpreter in interactive mode.
 ## Statistics
 ### Linear Score
 Source: https://github.com/AIRI-Institute/LLM-Microscope
@@ -57,7 +58,7 @@ Model recieves same question for each image and some parts of answer were pregen
 ![image](https://github.com/user-attachments/assets/0a78693d-c968-4f3a-b4d5-b5b18b5f9dd4)
 
 
-## Authros
+## Authors
 **Rinat Prochii**, Skoletch
 
 **Fedor Gubanov**, Skoltech
