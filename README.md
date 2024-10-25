@@ -1,5 +1,6 @@
 # Interpretation of Multimodal LLMs Trained for Medical Domain
 This repository consists of several jupyter notebooks with different LLM interpretation techniques
+Used model: https://github.com/microsoft/LLaVA-Med
 ## Problem
 Multimodal AI models like LLaVA-Med, which integrate medical text and images, are difficult to interpret, posing risks to transparency and trust in clinical decision-making. Without clear understanding of how these models process and combine different inputs, their application in healthcare is limited.
 ## Solution
