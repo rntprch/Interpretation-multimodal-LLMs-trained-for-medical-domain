@@ -53,10 +53,9 @@ Source: https://github.com/salesforce/ALBEF/blob/main/visualization.ipynb
 Model recieves same question for each image and some parts of answer were pregenerated in order to recieve only meaningful tokens.
 
 #### Attention Distribution Based on the Question Tokens
-![image](https://github.com/user-attachments/assets/43d701fc-f000-4e37-ab48-db10c8d79e7b)
+![image](https://github.com/user-attachments/assets/956f862c-3c3a-4b2b-bbe6-f4f58efa661c)
 #### Attention Distribution Based on the Last Predicted Token
-![image](https://github.com/user-attachments/assets/0a78693d-c968-4f3a-b4d5-b5b18b5f9dd4)
-
+![image](https://github.com/user-attachments/assets/e73f7995-e16d-4842-a226-94a387bf1621)
 
 ## Authors
 **Rinat Prochii**, Skoletch
