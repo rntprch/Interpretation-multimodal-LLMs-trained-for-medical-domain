@@ -53,10 +53,10 @@ RUN wget "https://hanoverprod.z21.web.core.windows.net/med_llava/multimodal_chat
 
 COPY download_images.py /model/LLaVA-Med/llava/data/download_images.py
 
-#RUN python /workspace/LLaVA-Med/llava/data/download_images.py \
-#    --input_path /workspace/LLaVA-Med/llava/data/llava_med_test_image_urls.jsonl \
-#    --pmc_output_path /workspace/LLaVA-Med/llava/data/pmc \
-#    --images_output_path /workspace/LLaVA-Med/llava/data/images
+RUN python /workspace/LLaVA-Med/llava/data/download_images.py \
+    --input_path /workspace/LLaVA-Med/llava/data/llava_med_test_image_urls.jsonl \
+    --pmc_output_path /workspace/LLaVA-Med/llava/data/pmc \
+    --images_output_path /workspace/LLaVA-Med/llava/data/images
 
 
 WORKDIR /workspace
@@ -65,4 +65,3 @@ EXPOSE 10000 40000 7860 510
 
 # Set the default command to activate the Conda environment when starting the container
 CMD ["jupyter", "notebook", "--ip=0.0.0.0", "--port=510", "--no-browser", "--allow-root"]
-#CMD ["/bin/bash"]
