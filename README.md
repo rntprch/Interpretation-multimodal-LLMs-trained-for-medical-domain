@@ -1,5 +1,5 @@
 # Interpretation of Multimodal LLMs Trained for Medical Domain
-This repository consists of several jupyter notebooks with different LLM interpretation techniques
+This repository consists of several jupyter notebooks with different Multimodal LLMs interpretation techniques
 
 Used model: https://github.com/microsoft/LLaVA-Med
 ## Problem
