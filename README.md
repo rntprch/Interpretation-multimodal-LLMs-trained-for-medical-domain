@@ -48,6 +48,7 @@ Source: https://multimodal-interpretability.csail.mit.edu/Multimodal-Neurons-in-
 
 ### GradCam
 Source: https://github.com/salesforce/ALBEF/blob/main/visualization.ipynb
+
 Model recieves same question for each image and some parts of answer were pregenerated in order to recieve only meaningful tokens.
 
 #### Attention Distribution Based on the Question Tokens
