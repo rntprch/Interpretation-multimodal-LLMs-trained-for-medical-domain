@@ -21,14 +21,11 @@ After creating docker environment connect to running container with VS code or a
 Source: https://github.com/AIRI-Institute/LLM-Microscope
 
 #### Full Embedding (Text + Image)
-![image](https://github.com/user-attachments/assets/f9a4eb82-e8c9-4808-ab5e-76229d395bcd)
-![image](https://github.com/user-attachments/assets/8b23ede0-d5c7-414b-9bbc-368943641d34)
-#### Text Embedding
-![image](https://github.com/user-attachments/assets/7463a5ba-4bb9-4558-b176-679e3349b7fd)
-![image](https://github.com/user-attachments/assets/56272bdd-b835-4bc8-9dba-ca676940ce1e)
-#### Visual Embedding
-![image](https://github.com/user-attachments/assets/aadd60b9-df02-4466-bcd9-eaa1e63d9d40)
-![image](https://github.com/user-attachments/assets/47902474-7de8-489c-9aea-3197e4798be0)
+![image](https://github.com/user-attachments/assets/54de2647-a199-44fb-8466-a42075ee77cd)
+
+#### Text and Visual Embedding Separately
+![image](https://github.com/user-attachments/assets/9899fadf-bda5-4f3c-8967-3a742c5434e1)
+![image](https://github.com/user-attachments/assets/8becfa02-a16d-4041-bedd-538882a2a2cc)
 
 ### Anisotropy & Intrinsic Dimension
 Source: https://aclanthology.org/2024.findings-eacl.58.pdf
@@ -36,12 +33,10 @@ Source: https://aclanthology.org/2024.findings-eacl.58.pdf
 #### Full Embedding (Text + Image)
 ![image](https://github.com/user-attachments/assets/4c877446-a702-4dd0-9557-f46d62e3575b)
 
-#### Text Embedding
-![image](https://github.com/user-attachments/assets/9535a47e-2177-4686-b6bb-e8db814abe6f)
-![image](https://github.com/user-attachments/assets/af41b78a-7a9b-462b-bda1-39f601a6f8f0)
-#### Visual Embedding
-![image](https://github.com/user-attachments/assets/f2e73387-2241-4853-a039-539ca1db4006)
-![image](https://github.com/user-attachments/assets/1cc2cc2a-eccb-4829-9d3f-cdff3a0779e1)
+#### Anisotropy for Text and Visual Embedding Separately
+![image](https://github.com/user-attachments/assets/e38923dd-bea2-4b3e-a777-2188c344b674)
+#### Intrinsic Dimension for Text and Visual Embedding Separately
+![image](https://github.com/user-attachments/assets/b5d059dd-6f7b-4a81-ad3e-695ddd486e2e)
 
 ### Contextualization
 Source: https://aclanthology.org/D19-1006.pdf
