@@ -58,10 +58,10 @@ Model recieves same question for each image and some parts of answer were pregen
 ![image](https://github.com/user-attachments/assets/e73f7995-e16d-4842-a226-94a387bf1621)
 
 ## Authors
-**Rinat Prochii**, Skoletch
+**Rinat Prochii**
 
-**Fedor Gubanov**, Skoltech
+**Fedor Gubanov**
 
-**Iana Kulichenko**, Skoltech
+**Iana Kulichenko**
 
-**Polina Druzhinina**, Skoltech
+**Polina Druzhinina**
